@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2018, 10:46:24 PM
+    Author     : Kamal
+*/
+
+/*================ INDEX.JSP STYLES ===================*/
+.btn-outline-info:hover {
+    background-color: initial;
+    color: #17a2b8;
+}
+
+
+
+
+
+
+/*================ SEARCH.JSP STYLES ===================*/
+#logo-search-top-bar{
+    background-color: #fBfBfB;
+    height: 122px;
+    border-bottom: 1px solid  #e6e6e6;
+}
+
+#logo-search-image{
+    width: 120px;
+    height: 44px;
+    border: 0;
+}
+
+#logo-search-top-maindiv{
+    padding-left: 150px;
+    position: relative;
+    padding-right: 0px;
+    margin: -1px 0 0;
+    padding-top: 35px;
+}
+
+#logo-search-top-innerdiv{
+    padding-left: 13px;
+    padding-right: 12px;
+    left:0;
+    position: absolute;
+}
+
+#logo-search{
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+#results-maindiv{
+    padding-top: 50px;
+    padding-left: 10%; 
+}
+
+#result-item-outerdiv{
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: small;
+    font-family: arial,sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    flex: 1
+}
+
+#result-item-maindiv{
+    
+}
+
+#title-heading{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#title-anchor-link{
+    color: #1a0dab;
+}
+
+#result-item-innerdiv{
+    line-height: 18px;
+    color: #545454;
+    max-width: 46em;
+}
+
+#result-item-url{
+    white-space: nowrap;
+    height: 18px;
+    line-height: 16px;
+    display: block;
+}
+
+cite{
+    font-size: 14px;
+    color: #006621;
+    font-style: normal;
+}
+
+#result-item-snippet{
+    line-height: 1.4;
+    word-wrap: break-word;
+    color: #545454;
+}
+
+.page-number{
+    color: blue;
+    font-size: 14px;
+}
+
+.page-number:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*TO BE FIXED*/
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: green;
+}
+
+div{
+    display: block;
+}
+
+
+
+
+/*===========================================*/
+:focus{outline: none;}
+            input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+            .effect-16, 
+            .effect-17, 
+            .effect-18{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
+
+            .effect-16 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+            .effect-16:focus ~ .focus-border,
+            .has-content.effect-16 ~ .focus-border{width: 100%; transition: 0.4s;}
+            .effect-16 ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+            .effect-16:focus ~ label, .has-content.effect-16 ~ label{top: -16px; font-size: 12px; color: #3399FF; transition: 0.3s;}
+        
+
+:focus{outline: none;}
+            .effect-16-search, 
+            .effect-17-search, 
+            .effect-18-search{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
+
+            .effect-16-search ~ .focus-border-search{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+            .effect-16-search:focus ~ .focus-border-search,
+            .has-content-search.effect-16-search ~ .focus-border-search{width: 45%; transition: 0.4s;}
+            .effect-16-search ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+            .effect-16-search:focus ~ label, .has-content-search.effect-16-search ~ label{top: -16px; font-size: 12px; color: #3399FF; transition: 0.3s;}
